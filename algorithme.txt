@@ -1,0 +1,31 @@
+Définition des variables :
+    variables = ['a', 'b', 'c']
+
+Création de la table de vérité :
+    Pour chaque combinaison de valeurs de variables :
+        Calculer le résultat de la fonction logique pour les valeurs données
+        Ajouter les valeurs de variables et le résultat à la table de vérité
+
+Affichage de la table de vérité :
+    Afficher les en-têtes des colonnes
+    Pour chaque ligne de la table de vérité :
+        Afficher les valeurs de variables et le résultat correspondant
+
+Groupement des termes avec la méthode de Karnaugh :
+    Pour chaque ligne de la table de vérité :
+        Si le résultat est 1 :
+            Créer un groupe de termes en fonction des variables présentes dans la ligne
+            Ajouter le groupe à la liste de groupes
+
+Simplification des groupes :
+    Pour chaque groupe de la liste de groupes :
+        Simplifier le groupe en gardant uniquement les variables présentes
+        Ajouter le groupe simplifié à une nouvelle liste de groupes simplifiés
+
+Affichage des groupes simplifiés :
+    Pour chaque groupe simplifié :
+        Afficher le groupe sous forme de somme de produits de variables
+
+Affichage de la fonction logique minimisée :
+    Concaténer les groupes simplifiés pour former la fonction logique minimisée
+    Afficher la fonction logique minimisée
